@@ -1,5 +1,3 @@
-**Download:** see [Releases](https://github.com/gamefusion23/cs-andreas/releases) - get `CS-Andreas-1.2.2.zip`. Also on Melty: https://melty.gg/m/cs-andreas
-
 # CS Andreas 1.2.2
 
 CS Andreas is a free, non-commercial fan-made modification for Grand Theft Auto: San Andreas.
@@ -91,26 +89,49 @@ comes back afterwards.
 - **Recruiting:** `E` on a Grove Street member under the crosshair recruits him (as many as your respect allows),
   `E` on a recruit lets him go. Recruits fight with CS guns; an unarmed homie gets the knife in a fight.
 - **Automatic CS mode:** after a mission's cutscene CS mode comes back by itself; `[` turns that off.
-- **Rides:** in Big Smoke's rides, Reuniting the Families and the finale's chase CJ shoots from the car in CS mode
-  with an M4A1 that never runs dry; the enemies' fire on him there is San Andreas' own.
-- **Mission by mission:**
+- **Rides:** where CJ shoots from a car in CS mode he gets a CS gun that never runs dry; the enemies' fire on him
+  there is San Andreas' own:
+  - *Just Business* - TMP, with endless spare ammo;
+  - *Reuniting the Families* and other rides - the CS counterpart of San Andreas' gun (AK-47);
+  - the finale's chase and Sweet's rides - M4A1;
+  - *The Da Nang Thang* helicopter - M249;
+  - *Freefall* - a pistol.
+- **Bosses keep their own health** (Forelli in Saint Mark's Bistro and the like); everyone else has CS health.
+- **Mission by mission** (in story order):
   - *Tagging Up Turf* - choose Grove Street's tag as your spray (Esc > Options > Multiplayer), then `T` at a
     gang tag paints the whole tag at once; San Andreas counts it for the mission.
-  - *Stowaway* (Toreno's Andromada plane) - plant the CS C4 in the plane's hold instead of the satchel charge; it
-    goes off once CJ has jumped out.
-  - *Breaking the Bank at Caligula's* - the satchel charge to pick up looks like CS's C4 pack and gives the C4; the C4
-    blows the wall the mission wants blown; a CS smoke grenade thrown into the vent counts as the tear gas; `E` uses the
-    swipecard doors; climbing crates stand at the roof ledges.
-  - *Against All Odds* - the CS C4 blows the betting shop's back door.
-  - *Black Project* - the scientists act as CS hostages.
+  - *Drive-By* - only the gang members holding guns fight the CS way; while CJ is in a car they shoot at the car.
+  - *Sweet's Girl* - the kill feed names the enemies Seville Families.
+  - *Doberman* - the Ballas waves fight the CS way.
+  - *Los Sepulcros*, *House Party* - the homies are allies and fight the CS way.
+  - *Wrong Side of the Tracks* - the Vagos (and their bodies) ride the train; CJ is carried on the train's roof; Big
+    Smoke stays San Andreas'.
+  - *Just Business* - endless spare ammo; the mafia men have no radio labels.
+  - *Reuniting the Families* - the police at the motel fight the CS way.
+  - *The Meat Business* - the enemies stand and fight instead of running; bats stay bats; Rosenberg keeps his
+    extinguisher.
+  - *Mountain Cloud Boys* - Woozie stays San Andreas'.
+  - *Against All Odds* - the CS C4 blows the betting shop's back door; Catalina is safe from the blast.
+  - *Toreno's Last Flight*, *Interdiction* - CS has no rocket launcher, so M249 bullets hit helicopters harder.
+  - *Black Project* (Area 69) - the scientists act as CS hostages; the soldiers move properly on the walkways.
   - *The Da Nang Thang* - the helicopter's minigun is an endless CS M249; climbing crates on the ship; the knife takes
     the shotgun guard in one blow.
+  - *Breaking the Bank at Caligula's* - the satchel charge to pick up looks like CS's C4 pack and gives the C4; the C4
+    blows the wall the mission wants blown; a CS smoke grenade thrown into the vent counts as the tear gas; `E` uses the
+    swipecard doors; climbing crates stand at the roof ledges. Croupiers and dealers are not CS; the mafia men with two
+    pistols carry Dual Berettas; Woozie, Zero and the janitor stay San Andreas'; the SWAT and motorbike police engage;
+    night vision looks as in San Andreas.
   - *Freefall* - the cabin fight is a pistol fight.
-  - *Saint Mark's Bistro* - CJ is put straight into the jet to Liberty City.
-  - *Just Business* - endless spare ammo.
-  - *Reuniting the Families* - the police at the motel fight the CS way.
-  - *Doberman* - the Ballas waves fight the CS way.
-  - *Sweet's Girl* - the kill feed names the enemies Seville Families.
+  - *Saint Mark's Bistro* - the enemies engage CJ (Forelli keeps his boss health); CJ is put straight into the jet to
+    Liberty City.
+  - *Stowaway* (Toreno's Andromada plane) - the guard drops the parachute as a San Andreas pickup; plant the CS C4 in
+    the plane's hold instead of the satchel charge - it rides along with the plane and goes off once CJ has jumped out.
+  - *Home Coming*, *Beat Down on B Dup*, *Grove 4 Life* - Sweet fights the CS way while he holds his gun.
+  - *Los Desperados* - Cesar and the Aztecas fight the CS way for the whole mission; a katana becomes the knife.
+  - *End of the Line* - all three parts are recognised.
+  - Everywhere: the kill feed names the enemies by their gang.
+- **No automatic CS mode** (turn it on with `]` if you want): Catalyst, Robbing Uncle Sam, Drive-Thru, Ryder's pizza
+  scene, Explosive Situation.
 - **Kept San Andreas':** cutscenes and scenes, getting in and out of cars, races and missions without a fight on
   foot (Cesar Vialpando, the lowrider races, Home Invasion, Running Dog, Life's a Beach, Management Issues, Explosive
   Situation, OG Loc), Ryder with his bat in Cleaning the Hood, and characters who don't fight (Tenpenny, Woozie, Ken
