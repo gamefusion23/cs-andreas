@@ -1,6 +1,6 @@
-**Download:** see [Releases](https://github.com/gamefusion23/cs-andreas/releases) - get `CS-Andreas-1.2.0.zip`.
+**Download:** see [Releases](https://github.com/gamefusion23/cs-andreas/releases) - get `CS-Andreas-1.2.2.zip`. Also on Melty: https://melty.gg/m/cs-andreas
 
-# CS Andreas 1.2.0
+# CS Andreas 1.2.2
 
 CS Andreas is a free, non-commercial fan-made modification for Grand Theft Auto: San Andreas.
 The project combines Counter-Strike 1.6 gameplay mechanics with the world and story of GTA San Andreas.
@@ -53,11 +53,15 @@ comes back afterwards.
 - **F7 crates:** in CS mode on foot `F7` puts a crate in front of CJ to jump on (again on the same spot: on top of
   it). They stay where you put them (`%LOCALAPPDATA%\CSAndreas\box_points_world.txt`) and are never written into
   your San Andreas saves.
+- **CS Mode for NPCs:** in story missions the fighters, your recruits and allies fight with CS 1.6 animations, guns
+  and sounds. `'` (on a Russian layout `Э`) or Esc > Options > Multiplayer > "CS Mode for NPCs" turns that off and
+  on at any moment - off, they look, shoot and sound as in plain San Andreas. CJ is not affected. Kept in
+  `csandreas.ini` (`NpcCsMode`).
 - **Police:** San Andreas' own wanted level works in CS mode too (`MaxWantedInCsMode` / `NoWantedInCsMode` in
   `csandreas.ini` change that).
 
 ## Keys (CS mode, on foot)
-`]` CS mode on / off · `\` money view · `B` buy menu · `M` team / class · `LMB` fire · `RMB` silencer / scope /
+`]` CS mode on / off · `\` money view · `'` CS Mode for NPCs · `B` buy menu · `M` team / class · `LMB` fire · `RMB` silencer / scope /
 burst / stab / shield · `R` reload · wheel or `1`-`5` weapons · `Q` last weapon · `G` drop · `E` use / defuse /
 recruit · `F` flashlight · `N` night vision · `Z` `X` `C` radio · `T` spray · `F7` crate · `Esc` CS game menu ·
 `WASD` move · `Space` jump · `Ctrl` duck · `Shift` walk. In San Andreas mode and in vehicles every key is San
