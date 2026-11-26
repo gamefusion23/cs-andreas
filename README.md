@@ -11,6 +11,12 @@ CS Andreas is an independent fan project and is not affiliated with, endorsed by
 Rockstar Games, Take-Two Interactive, or Valve Corporation.
 All trademarks and copyrights belong to their respective owners.
 
+> **Please read first: CS Andreas is a fan project in active development, and you may run into bugs.** The game can
+> crash or close, a mission can behave oddly, CS mode can clash with other San Andreas mods (CLEO, Mod Loader, ENB,
+> widescreen / windowed-mode plugins ...), and Windows or an antivirus can warn about the launcher. **Keep a copy of
+> your saves** (Documents\GTA San Andreas User Files) before you play. If something goes wrong, see
+> [Reporting a problem](#reporting-a-problem) - every report with its log helps fix it.
+
 ## Requirements
 - Grand Theft Auto: San Andreas for PC, version **1.0 US or 1.01 EU**. The Steam / Rockstar Launcher versions
   (2.0 and later) and the Definitive Edition are different programs and are not supported.
@@ -33,6 +39,17 @@ You can also give the folders yourself:
 **How it runs:** `csandreas.exe` starts your `gta_sa.exe` and loads `csandreas.dll` into it before the game runs
 (this is called DLL injection). Nothing is written into the game folders. Some antivirus programs warn about
 programs that load a DLL into another program; check the files against the SHA-256 sums given with the release.
+
+## If Windows or your antivirus stops it
+- **"Windows protected your PC"** (a blue SmartScreen window) on the first start: `csandreas.exe` is new and not
+  signed, so Windows does not know it yet. Click **More info**, then **Run anyway**. It is asked only once.
+- **The antivirus deleted or quarantined `csandreas.exe` or `csandreas.dll`:** loading a DLL into a game is also
+  what some malware does, so some antivirus programs flag it - a false alarm. Restore the file from quarantine and
+  allow it, or unpack the ZIP again. You do not need to switch your antivirus off.
+- Check that your ZIP is the real one: its SHA-256 is given on the release page (PowerShell:
+  `Get-FileHash CS-Andreas-<version>.zip`).
+- "This gta_sa.exe is not supported": your San Andreas is the Steam / Rockstar Launcher version (2.0 or later). A
+  copy can be turned back into 1.0 with a downgrader made by the GTA modding community.
 
 ## What CS mode is
 One key (`]`, on a Russian layout `Ъ` - it is the physical key) switches between San Andreas and CS mode. In CS mode
@@ -60,6 +77,46 @@ comes back afterwards.
 - **Police:** San Andreas' own wanted level works in CS mode too (`MaxWantedInCsMode` / `NoWantedInCsMode` in
   `csandreas.ini` change that).
 
+## Story missions in CS mode
+- **The missions' NPCs fight the CS way:** the armed people a mission's script creates, your Grove Street allies and
+  recruits, and in some missions the gangs and police that join the fight. They get CS 1.6 poses and gait, CS guns
+  and sounds, CS impacts and deaths, and drop a CS weapon box. Their weapons become the CS counterparts: 9mm - Glock
+  18 (twin 9mm - Dual Berettas), silenced 9mm - USP, Desert Eagle - Deagle, shotguns - M3 / XM1014, Micro Uzi - MAC-10,
+  MP5, AK-47, M4 - M4A1, Tec-9 - TMP, country rifle - Scout, sniper rifle - AWP, bats, clubs and blades - the knife.
+  Passers-by and the police outside missions are never changed.
+- **CS bots:** enemies fire only at a CJ they can see; bot difficulty (easy / normal / hard / expert) in the Esc
+  menu. Mission enemies have CS's 100 HP and 100 armour, the bosses keep their own. A flashbang blinds them, a smoke
+  grenade blocks their shots. Enemies who just stood on their spot come for CJ.
+- **`'` (Russian `Э`) - CS Mode for NPCs:** all of the above off or on at any moment.
+- **Recruiting:** `E` on a Grove Street member under the crosshair recruits him (as many as your respect allows),
+  `E` on a recruit lets him go. Recruits fight with CS guns; an unarmed homie gets the knife in a fight.
+- **Automatic CS mode:** after a mission's cutscene CS mode comes back by itself; `[` turns that off.
+- **Rides:** in Big Smoke's rides, Reuniting the Families and the finale's chase CJ shoots from the car in CS mode
+  with an M4A1 that never runs dry; the enemies' fire on him there is San Andreas' own.
+- **Mission by mission:**
+  - *Tagging Up Turf* - choose Grove Street's tag as your spray (Esc > Options > Multiplayer), then `T` at a
+    gang tag paints the whole tag at once; San Andreas counts it for the mission.
+  - *Stowaway* (Toreno's Andromada plane) - plant the CS C4 in the plane's hold instead of the satchel charge; it
+    goes off once CJ has jumped out.
+  - *Breaking the Bank at Caligula's* - the satchel charge to pick up looks like CS's C4 pack and gives the C4; the C4
+    blows the wall the mission wants blown; a CS smoke grenade thrown into the vent counts as the tear gas; `E` uses the
+    swipecard doors; climbing crates stand at the roof ledges.
+  - *Against All Odds* - the CS C4 blows the betting shop's back door.
+  - *Black Project* - the scientists act as CS hostages.
+  - *The Da Nang Thang* - the helicopter's minigun is an endless CS M249; climbing crates on the ship; the knife takes
+    the shotgun guard in one blow.
+  - *Freefall* - the cabin fight is a pistol fight.
+  - *Saint Mark's Bistro* - CJ is put straight into the jet to Liberty City.
+  - *Just Business* - endless spare ammo.
+  - *Reuniting the Families* - the police at the motel fight the CS way.
+  - *Doberman* - the Ballas waves fight the CS way.
+  - *Sweet's Girl* - the kill feed names the enemies Seville Families.
+- **Kept San Andreas':** cutscenes and scenes, getting in and out of cars, races and missions without a fight on
+  foot (Cesar Vialpando, the lowrider races, Home Invasion, Running Dog, Life's a Beach, Management Issues, Explosive
+  Situation, OG Loc), Ryder with his bat in Cleaning the Hood, and characters who don't fight (Tenpenny, Woozie, Ken
+  Rosenberg, the girls you rescue).
+- **F7 crates** work in every mission too (Da Nang Thang and Caligula's keep their own sets).
+
 ## Keys (CS mode, on foot)
 `]` CS mode on / off · `\` money view · `'` CS Mode for NPCs · `B` buy menu · `M` team / class · `LMB` fire · `RMB` silencer / scope /
 burst / stab / shield · `R` reload · wheel or `1`-`5` weapons · `Q` last weapon · `G` drop · `E` use / defuse /
@@ -79,6 +136,12 @@ Andreas' own. Keys and settings: `%LOCALAPPDATA%\CSAndreas\csandreas.ini`.
 Delete the CS Andreas folder and `%LOCALAPPDATA%\CSAndreas`. The game folders were never changed. (If you moved
 the music volume or brightness sliders in the CS options, San Andreas keeps those in its own settings, as if you had
 set them in its menu.)
+
+## Reporting a problem
+Open an issue on GitHub (https://github.com/gamefusion23/cs-andreas/issues) with your San Andreas version, what you
+did and what happened, and attach `%LOCALAPPDATA%\CSAndreas\csandreas.log` (and `csandreas-prev.log` if the game was
+started again since). The log holds the mod's version, the game's exe, the plugins in the game folder and what went
+wrong; its folder paths may show your Windows user name - you can blank it out before you post the log.
 
 ## Known limits
 - Only the PC versions 1.0 US and 1.01 EU of San Andreas.
