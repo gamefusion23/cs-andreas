@@ -1,0 +1,72 @@
+name: Bug report
+description: Something went wrong in CS Andreas (crash, mission problem, launcher, antivirus ...)
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! CS Andreas is in active development, every report with its log helps fix it.
+        The log is `%LOCALAPPDATA%\CSAndreas\csandreas.log` (paste that path into the Explorer address bar).
+        If the game was started again after the problem, attach `csandreas-prev.log` too.
+        The log's folder paths may show your Windows user name - you can blank it out before you post it.
+  - type: input
+    id: version
+    attributes:
+      label: CS Andreas version
+      description: From the ZIP name or the first lines of csandreas.log ("CS Andreas x.y.z loaded").
+      placeholder: "1.2.2"
+    validations:
+      required: true
+  - type: dropdown
+    id: gta
+    attributes:
+      label: GTA San Andreas version
+      options:
+        - 1.0 US
+        - 1.01 EU
+        - Steam / Rockstar Launcher (2.0 or later)
+        - I don't know
+    validations:
+      required: true
+  - type: dropdown
+    id: cs
+    attributes:
+      label: Counter-Strike 1.6
+      options:
+        - Steam
+        - Non-Steam
+        - I don't know
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What did you do, what did you expect, and what happened instead (crash, freeze, wrong behaviour ...)?
+    validations:
+      required: true
+  - type: input
+    id: mission
+    attributes:
+      label: Mission (if any)
+      placeholder: "e.g. Breaking the Bank at Caligula's"
+  - type: textarea
+    id: mods
+    attributes:
+      label: Other San Andreas mods
+      description: CLEO, Mod Loader, ENB, widescreen / windowed-mode plugins, SilentPatch ... or "none".
+  - type: textarea
+    id: log
+    attributes:
+      label: csandreas.log
+      description: Drag the file into this box (or paste its text).
+    validations:
+      required: true
+  - type: checkboxes
+    id: readme
+    attributes:
+      label: Checks
+      options:
+        - label: I have read the README (requirements, SmartScreen / antivirus section).
+          required: true
