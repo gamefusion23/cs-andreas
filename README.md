@@ -1,5 +1,7 @@
 # CS Andreas 1.2.2
 
+**by GameFusion**
+
 CS Andreas is a free, non-commercial fan-made modification for Grand Theft Auto: San Andreas.
 The project combines Counter-Strike 1.6 gameplay mechanics with the world and story of GTA San Andreas.
 
